@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adp-empty-website-test-roz
+  description: manual testing
+  annotations:
+    github.com/project-slug: defra-adp-sandpit/adp-empty-website-test-roz
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/defra-adp-sandpit/adp-empty-website-test-roz
+      title: GitHub Repository
+      icon: github
+
+spec:
+  type: website
+  lifecycle: alpha
+  owner: group:default/eutd-adp-test
+  
